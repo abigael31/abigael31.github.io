@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Isabelle Schouame Ngouan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="photo1-COPY.jpeg" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .gradient-border {
+            border: 3px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+        } 
+    </style>
+</head>
+<body class="text-gray-800">
+    <div class="container mx-auto px-4 max-w-5xl">
+        <header class="text-center py-12 bg-white shadow-lg rounded-b-lg">
+            <div class="relative inline-block">
+                <img src="/api/placeholder/200/200" alt="Isabelle Schouame Ngouan" class="rounded-full mx-auto mb-4 w-48 h-48 object-cover border-4 border-blue-500">
+                <div class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-2">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </div>
+            <h1 class="text-4xl font-bold mb-2 text-blue-600">Isabelle Schouame Ngouan</h1>
+            <p class="text-xl text-gray-600">Étudiante en prépa intégrée - École d'ingénieur du numérique</p>
+        </header>
+
+        <main class="space-y-8 mt-8">
+            <section class="bg-white p-8 rounded-lg shadow-md gradient-border">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-600">Présentation</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Étudiante dynamique en deuxième année de prépa intégrée dans une école d'ingénieur du numérique, 
+                    je suis actuellement à la recherche d'une alternance pour ma première année de cycle ingénieur. 
+                    Passionnée par le développement et les technologies numériques, je souhaite mettre mes compétences 
+                    au service de projets innovants.
+                </p>
+            </section>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <section class="bg-white p-8 rounded-lg shadow-md gradient-border">
+                    <h2 class="text-2xl font-semibold mb-4 text-blue-600">Compétences</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-bold mb-2 text-blue-500">Programmation</h3>
+                            <ul class="space-y-2">
+                                <li class="flex items-center">
+                                    <i class="fab fa-python mr-2 text-blue-400"></i>Python
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fab fa-java mr-2 text-red-400"></i>Java
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-code mr-2 text-green-400"></i>C
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fab fa-html5 mr-2 text-orange-400"></i>HTML/CSS
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-bold mb-2 text-blue-500">Soft Skills</h3>
+                            <ul class="space-y-2">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check-circle mr-2 text-green-400"></i>Organisée
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-bolt mr-2 text-yellow-400"></i>Dynamique
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-medal mr-2 text-blue-400"></i>Rigoureuse
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-white p-8 rounded-lg shadow-md gradient-border">
+                    <h2 class="text-2xl font-semibold mb-4 text-blue-600">Langues</h2>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center">
+                            <span>Français</span>
+                            <div class="w-2/3 bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 100%"></div>
+                            </div>
+                            <span>Courant</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Anglais</span>
+                            <div class="w-2/3 bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                            <span>Courant</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Mandarin</span>
+                            <div class="w-2/3 bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                            <span>Courant</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Portugais</span>
+                            <div class="w-2/3 bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                            <span>Intermédiaire</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span>Espagnol</span>
+                            <div class="w-2/3 bg-gray-200 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                            <span>Intermédiaire</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="bg-white p-8 rounded-lg shadow-md gradient-border">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-600">Projets</h2>
+                <div class="space-y-4">
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-600">Aide à la création de sites web et logiciels e-commerce</h3>
+                        <p class="text-gray-700">Contribution au développement de solutions numériques pour une microentreprise au Cameroun.</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-600">Promotion de l'école</h3>
+                        <p class="text-gray-700">Participation à des salons étudiants (Studyrama, Salon de l'Étudiant) pour promouvoir mon école.</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <h3 class="font-bold text-blue-600">Concours d'éloquence</h3>
+                        <p class="text-gray-700">Participation à un concours d'éloquence en mandarin.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-lg shadow-md gradient-border">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-600">Hobbies et Passions</h2>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <i class="fas fa-music text-4xl text-blue-500 mb-2"></i>
+                        <h3 class="font-bold">Musique</h3>
+                        <p class="text-sm">3 ans de cours de chant</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <i class="fas fa-theater-masks text-4xl text-blue-500 mb-2"></i>
+                        <h3 class="font-bold">Théâtre</h3>
+                        <p class="text-sm">7 ans de pratique</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <i class="fas fa-globe text-4xl text-blue-500 mb-2"></i>
+                        <h3 class="font-bold">Langues</h3>
+                        <p class="text-sm">Apprentissage autodidacte</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <i class="fas fa-laptop-code text-4xl text-blue-500 mb-2"></i>
+                        <h3 class="font-bold">Développement</h3>
+                        <p class="text-sm">Apprentissage autodidacte</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-white p-8 rounded-lg shadow-md gradient-border" id="contact">
+                <h2 class="text-2xl font-semibold mb-4 text-blue-600">Contact</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-bold mb-4 text-blue-500">Coordonnées</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope mr-3 text-blue-400"></i>
+                                <a href="mailto:abigaelschouame.9@gmail.com" class="hover:text-blue-600">abigaelschouame.9@gmail.com</a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone mr-3 text-blue-400"></i>
+                                <a href="tel:0745332030" class="hover:text-blue-600">07 45 33 20 30</a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-building mr-3 text-blue-400"></i>
+                                <a href="mailto:accueil@aldesigner.com" class="hover:text-blue-600">accueil@aldesigner.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block mb-2 text-blue-500" for="name">Nom</label>
+                            <input type="text" id="name" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Votre nom">
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-blue-500" for="email">Email</label>
+                            <input type="email" id="email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Votre email">
+                        </div>
+                        <div>
+                            <label class="block mb-2 text-blue-500" for="message">Message</label>
+                            <textarea id="message" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" rows="4" placeholder="Votre message"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300">
+                            Envoyer
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center py-6 text-gray-600">
+            <p>&copy; 2024 Isabelle Schouame Ngouan. Tous droits réservés.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#" class="text-blue-500 hover:text-blue-600"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
